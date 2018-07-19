@@ -28,6 +28,8 @@ import logging
 import datetime
 import rtde.rtde as rtde
 import rtde.rtde_config as rtde_config
+import urx.urscript
+import urx.robot
 import timeit
 
 
@@ -67,6 +69,8 @@ setp.input_double_register_5 = 0
 # The function "rtde_set_watchdog" in the "rtde_control_loop.urp" creates a 1 Hz watchdog
 watchdog.input_int_register_0 = 0
 
+urxRob = urx.Robot("192.168.12.50")
+
 def setp_to_list(setp):
     list = []
     for i in range(0,6):
@@ -78,10 +82,19 @@ def list_to_setp(setp, list):
         setp.__dict__["input_double_register_%i" % i] = list[i]
     return setp
 
+def start_RTDE_servo_listener():
+    file = open("rtde_control_servo.script","r")
+    prog = urx.urscript.URScript()
+    for line in file:
+        prog.add_line_to_program(line)
+
+    urxRob.send_program(prog.__call__())
+
 #start data synchronization
 if not con.send_start():
     sys.exit()
 
+start_RTDE_servo_listener()
 
 # control loop
 log = open("controlLog.txt", "w")
