@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/rtde client.iml" filepath="$PROJECT_DIR$/.idea/rtde client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rtde_urx_mixed_control/.idea/rtde client.iml" filepath="$PROJECT_DIR$/../rtde_urx_mixed_control/.idea/rtde client.iml" />
     </modules>
   </component>
 </project>
