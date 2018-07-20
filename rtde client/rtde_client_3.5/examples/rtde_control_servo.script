@@ -1,5 +1,6 @@
 
-  movej([0,-1.8,0,0,0,0])
+  movej([0,-1.8,0,0,0,0], v = 0.6)
+  stopj(1)
   set_standard_analog_input_domain(0, 1)
   set_standard_analog_input_domain(1, 1)
   set_tool_analog_input_domain(0, 1)
@@ -9,12 +10,12 @@
   set_tool_voltage(0)
   set_input_actions_to_default()
   set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
-  set_payload(0.0)
+  set_payload(0.05)
   set_gravity([0.0, 0.0, 9.82])
 
   global setp=get_forward_kin()
 
-  rtde_set_watchdog("input_int_register_0", 1, "PAUSE")
+  ##rtde_set_watchdog("input_int_register_0", 1, "PAUSE")
 
 
 
@@ -39,7 +40,7 @@
   threadId_Thread_1 = run Thread_1()
   while (True):
 
-    servoj([setp[0],setp[1],setp[2],setp[3],setp[4],setp[5]])
+    servoj([setp[0],setp[1],setp[2],setp[3],setp[4],setp[5]], t = 0.007, lookahead_time = .2)
 
     write_output_integer_register(0, 1)
 

@@ -22,7 +22,7 @@
     <SUITE FILE_PATH="coverage/rtde_client$test_script.coverage" NAME="test_script Coverage Results" MODIFIED="1532032195925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../CustomURDriver/CustomURDriver/examples" />
     <SUITE FILE_PATH="coverage/rtde_client$rtde.coverage" NAME="rtde Coverage Results" MODIFIED="1531841909869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rtde_client_3.5/rtde" />
     <SUITE FILE_PATH="coverage/rtde_client$csv_reader.coverage" NAME="csv_reader Coverage Results" MODIFIED="1531836196896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rtde_client_3.5/rtde" />
-    <SUITE FILE_PATH="coverage/rtde_client$mixed_control_send_traj.coverage" NAME="mixed_control_send_traj Coverage Results" MODIFIED="1532098510028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rtde_client_3.5/examples" />
+    <SUITE FILE_PATH="coverage/rtde_client$mixed_control_send_traj.coverage" NAME="mixed_control_send_traj Coverage Results" MODIFIED="1532101161507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rtde_client_3.5/examples" />
     <SUITE FILE_PATH="coverage/rtde_client$example_control_loop__1_.coverage" NAME="example_control_loop (1) Coverage Results" MODIFIED="1532010500728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rtde_client_3.5/examples" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -36,8 +36,8 @@
       <file leaf-file-name="mixed_control_send_traj.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control_send_traj.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="89" column="21" lean-forward="true" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+            <state relative-caret-position="-1275">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -45,8 +45,8 @@
       <file leaf-file-name="mixed_control.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+            <state relative-caret-position="128">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -63,8 +63,8 @@
       <file leaf-file-name="rtde_control_servo.script" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/rtde_control_servo.script">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="714">
+              <caret line="42" column="73" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -72,7 +72,7 @@
       <file leaf-file-name="test_script.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../../CustomURDriver/CustomURDriver/examples/test_script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="119">
               <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -98,7 +98,7 @@
       <file leaf-file-name="urrobot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/urrobot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
+            <state relative-caret-position="17">
               <caret line="80" column="59" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
             </state>
           </provider>
@@ -107,7 +107,7 @@
       <file leaf-file-name="ursecmon.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/ursecmon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3825">
+            <state relative-caret-position="17">
               <caret line="230" column="45" selection-start-line="230" selection-start-column="45" selection-end-line="230" selection-end-column="45" />
             </state>
           </provider>
@@ -116,7 +116,7 @@
       <file leaf-file-name="urscript.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/urscript.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
+            <state relative-caret-position="284">
               <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
@@ -162,11 +162,11 @@
         <option value="$PROJECT_DIR$/rtde_client_3.5/examples/example_control.py" />
         <option value="$PROJECT_DIR$/rtde_client_3.5/examples/urx/urscript.py" />
         <option value="$PROJECT_DIR$/rtde_client_3.5/examples/test.script" />
-        <option value="$PROJECT_DIR$/rtde_client_3.5/examples/rtde_control_servo.script" />
         <option value="$PROJECT_DIR$/../../../../CustomURDriver/CustomURDriver/examples/test_script.py" />
         <option value="$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control_getTrajectory.py" />
         <option value="$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control.py" />
         <option value="$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control_send_traj.py" />
+        <option value="$PROJECT_DIR$/rtde_client_3.5/examples/rtde_control_servo.script" />
       </list>
     </option>
   </component>
@@ -503,9 +503,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32943678" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32943678" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14739583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14739583" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -824,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/ursecmon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3825">
-          <caret line="230" column="45" selection-start-line="230" selection-start-column="45" selection-end-line="230" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/example_control.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -838,17 +831,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/robot.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/urscript.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/ursecmon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="230" column="45" selection-start-line="230" selection-start-column="45" selection-end-line="230" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/urrobot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
+        <state relative-caret-position="17">
           <caret line="80" column="59" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/urscript.py">
+    <entry file="file://$PROJECT_DIR$/../../../../CustomURDriver/CustomURDriver/examples/test_script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -859,37 +879,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../CustomURDriver/CustomURDriver/examples/test_script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/robot.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/rtde_control_servo.script">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        <state relative-caret-position="714">
+          <caret line="42" column="73" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control_send_traj.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="89" column="21" lean-forward="true" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+        <state relative-caret-position="-1275">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>

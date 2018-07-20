@@ -35,7 +35,7 @@ import timeit
 
 #logging.basicConfig(level=logging.INFO)
 
-ROBOT_HOST = '192.168.12.248'
+ROBOT_HOST = '192.168.12.50'
 ROBOT_PORT = 30004
 config_filename = 'control_loop_configuration.xml'
 
@@ -109,7 +109,7 @@ def start_RTDE_servo_listener():
 
 def generate_traj():
     list = []
-    for j in range(0,1000):
+    for j in range(0,800):
         z = 0.000002 * j * j
         y = -1.80 + 0.001 * j
         list.append([z, y, 0, 0, 0, 0])
@@ -124,8 +124,6 @@ if not con.send_start():
 start_RTDE_servo_listener()
 
 # control loop
-log = open("controlLog.txt", "w")
-##timeStamp = datetime.datetime.now().microsecond
 while keep_running:
     # receive the current state
     state = con.receive()
@@ -136,14 +134,12 @@ while keep_running:
     # do something...
     if state.output_int_register_0 != 0:
 
-        # generate dummy points
-        newSetp = traj.pop(0)
-        setp = list_to_setp(setp, newSetp)
+        if len(traj) > 0:
+            newSetp = traj.pop(0)
+            setp = list_to_setp(setp, newSetp)
 
-        # send new setpoint
-        con.send(setp)
-
-        # log.write("con.send(setp): {} \n".format(timeit.timeit(stmt = 'con.send(setp)', setup = 'from __main__ import con; from __main__ import setp', number=1)))
+            # send new setpoint
+            con.send(setp)
 
     # kick watchdog
     con.send(watchdog)
