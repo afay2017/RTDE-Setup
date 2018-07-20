@@ -18,9 +18,11 @@
     <SUITE FILE_PATH="coverage/rtde_client$record.coverage" NAME="record Coverage Results" MODIFIED="1531840866092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rtde_client_3.5/examples" />
     <SUITE FILE_PATH="coverage/rtde_client$example_control.coverage" NAME="example_control Coverage Results" MODIFIED="1532023977624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rtde_client_3.5/examples" />
     <SUITE FILE_PATH="coverage/rtde_client$mixed_control.coverage" NAME="mixed_control Coverage Results" MODIFIED="1532033077983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rtde_client_3.5/examples" />
+    <SUITE FILE_PATH="coverage/rtde_client$mixed_control__1_.coverage" NAME="mixed_control (1) Coverage Results" MODIFIED="1532098371062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rtde_client_3.5/examples" />
     <SUITE FILE_PATH="coverage/rtde_client$test_script.coverage" NAME="test_script Coverage Results" MODIFIED="1532032195925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../CustomURDriver/CustomURDriver/examples" />
     <SUITE FILE_PATH="coverage/rtde_client$rtde.coverage" NAME="rtde Coverage Results" MODIFIED="1531841909869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rtde_client_3.5/rtde" />
     <SUITE FILE_PATH="coverage/rtde_client$csv_reader.coverage" NAME="csv_reader Coverage Results" MODIFIED="1531836196896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rtde_client_3.5/rtde" />
+    <SUITE FILE_PATH="coverage/rtde_client$mixed_control_send_traj.coverage" NAME="mixed_control_send_traj Coverage Results" MODIFIED="1532098510028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rtde_client_3.5/examples" />
     <SUITE FILE_PATH="coverage/rtde_client$example_control_loop__1_.coverage" NAME="example_control_loop (1) Coverage Results" MODIFIED="1532010500728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rtde_client_3.5/examples" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -31,11 +33,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="mixed_control_send_traj.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control_send_traj.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="89" column="21" lean-forward="true" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mixed_control.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+            <state relative-caret-position="332">
+              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -49,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rtde_control_servo.script" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rtde_control_servo.script" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/rtde_control_servo.script">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="648">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -61,7 +72,7 @@
       <file leaf-file-name="test_script.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../../CustomURDriver/CustomURDriver/examples/test_script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="68">
               <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -73,36 +84,22 @@
       <file leaf-file-name="example_control.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/example_control.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-144">
-              <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_movej.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../CustomURDriver/CustomURDriver/examples/test_movej.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1139">
+              <caret line="67" column="33" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="robot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/robot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="urrobot.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/urrobot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-529">
-              <caret line="80" column="59" lean-forward="true" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
+            <state relative-caret-position="1309">
+              <caret line="80" column="59" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -110,7 +107,7 @@
       <file leaf-file-name="ursecmon.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/ursecmon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-359">
+            <state relative-caret-position="3825">
               <caret line="230" column="45" selection-start-line="230" selection-start-column="45" selection-end-line="230" selection-end-column="45" />
             </state>
           </provider>
@@ -119,7 +116,7 @@
       <file leaf-file-name="urscript.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/urscript.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
+            <state relative-caret-position="782">
               <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
@@ -167,7 +164,9 @@
         <option value="$PROJECT_DIR$/rtde_client_3.5/examples/test.script" />
         <option value="$PROJECT_DIR$/rtde_client_3.5/examples/rtde_control_servo.script" />
         <option value="$PROJECT_DIR$/../../../../CustomURDriver/CustomURDriver/examples/test_script.py" />
+        <option value="$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control_getTrajectory.py" />
         <option value="$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control.py" />
+        <option value="$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control_send_traj.py" />
       </list>
     </option>
   </component>
@@ -181,8 +180,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5" />
-    <option name="y" value="-17" />
+    <option name="x" value="454" />
+    <option name="y" value="-20" />
     <option name="width" value="1152" />
     <option name="height" value="748" />
   </component>
@@ -208,6 +207,13 @@
               <item name="rtde client" type="cbb8eebc:String" user="rtde client" />
               <item name="rtde_client_3.5" type="cbb8eebc:String" user="rtde_client_3.5" />
               <item name="examples" type="cbb8eebc:String" user="examples" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="rtde client" type="cbb8eebc:String" user="rtde client" />
+              <item name="rtde_client_3.5" type="cbb8eebc:String" user="rtde_client_3.5" />
+              <item name="examples" type="cbb8eebc:String" user="examples" />
+              <item name="rtde" type="cbb8eebc:String" user="rtde" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
@@ -255,18 +261,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Aux Jeff/Documents/UR5andMIR/UR5 and MIR100/control/RTDESetup/rtde client/rtde_client_3.5/examples/mixed_control.py" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Aux Jeff\Documents\UR5andMIR\UR5 and MIR100\control\RTDESetup\rtde client\rtde_client_3.5\examples" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aux Jeff\Documents\UR5andMIR\UR5 and MIR100\control\RTDESetup\rtde client\rtde_client_3.5\examples" />
       <recent name="C:\Users\Aux Jeff\Documents\UR5andMIR\UR5 and MIR100\control\rtde client\rtde_client_3.5\examples" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aux Jeff\Documents\UR5andMIR\UR5 and MIR100\control\RTDESetup\rtde client\rtde_client_3.5\examples" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_script">
+  <component name="RunManager" selected="Python.mixed_control_send_traj">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python">
       <module name="rtde client" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -320,7 +327,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="example_control" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mixed_control (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rtde client" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,26 +340,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rtde_client_3.5/examples/example_control.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="example_control_loop (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="rtde client" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rtde_client_3.5/examples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rtde_client_3.5/examples/example_control_loop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,7 +359,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Aux Jeff\Documents\UR5andMIR\UR5 and MIR100\control\RTDESetup\rtde client\rtde_client_3.5\examples\mixed_control_send_traj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mixed_control_send_traj" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rtde client" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rtde_client_3.5/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control_send_traj.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -458,19 +465,19 @@
       <item itemvalue="Python.rtde" />
       <item itemvalue="Python.__init__" />
       <item itemvalue="Python.serialize" />
-      <item itemvalue="Python.example_control_loop (1)" />
-      <item itemvalue="Python.example_control" />
       <item itemvalue="Python.mixed_control" />
       <item itemvalue="Python.test_script" />
       <item itemvalue="Python.urscript" />
+      <item itemvalue="Python.mixed_control_send_traj" />
+      <item itemvalue="Python.mixed_control (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mixed_control_send_traj" />
+        <item itemvalue="Python.mixed_control (1)" />
         <item itemvalue="Python.mixed_control" />
         <item itemvalue="Python.test_script" />
         <item itemvalue="Python.urscript" />
-        <item itemvalue="Python.example_control" />
-        <item itemvalue="Python.example_control_loop (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -494,17 +501,17 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32943678" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32943678" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14739583" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14739583" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -580,9 +587,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/control_loop_configuration.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/example_control.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -812,7 +816,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../CustomURDriver/CustomURDriver/examples/test_movej.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="68">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="37" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -822,28 +826,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/ursecmon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-359">
+        <state relative-caret-position="3825">
           <caret line="230" column="45" selection-start-line="230" selection-start-column="45" selection-end-line="230" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/example_control.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="67" column="33" lean-forward="true" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
+        <state relative-caret-position="1139">
+          <caret line="67" column="33" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/urrobot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-529">
-          <caret line="80" column="59" lean-forward="true" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
+        <state relative-caret-position="1309">
+          <caret line="80" column="59" selection-start-line="80" selection-start-column="59" selection-end-line="80" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/urscript.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
+        <state relative-caret-position="782">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
@@ -857,7 +861,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../CustomURDriver/CustomURDriver/examples/test_script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="68">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -866,21 +870,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/urx/robot.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/rtde_control_servo.script">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
+        <state relative-caret-position="648">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+        <state relative-caret-position="332">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/rtde_control_servo.script">
+    <entry file="file://$PROJECT_DIR$/rtde_client_3.5/examples/mixed_control_send_traj.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="262">
+          <caret line="89" column="21" lean-forward="true" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
         </state>
       </provider>
     </entry>
