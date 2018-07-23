@@ -1,6 +1,4 @@
 
-  movej([0,-1.8,0,0,0,0], v = 0.6)
-  stopj(1)
   set_standard_analog_input_domain(0, 1)
   set_standard_analog_input_domain(1, 1)
   set_tool_analog_input_domain(0, 1)
