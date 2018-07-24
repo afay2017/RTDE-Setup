@@ -13,6 +13,7 @@
 		<field name="input_double_register_3" type="DOUBLE"/>
 		<field name="input_double_register_4" type="DOUBLE"/>
 		<field name="input_double_register_5" type="DOUBLE"/>
+		<field name="input_double_register_6" type="DOUBLE"/>
 	</recipe>
 
 	<recipe key="watchdog">

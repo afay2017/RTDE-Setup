@@ -10,8 +10,8 @@ import time
 
 
 class mixedControlObject:
-    def __init__(self):
-        ##ROBOT_IP = '192.168.12.50'
+    def __init__(self, ip):
+        self.ROBOT_IP = ip
         self.RTDE_PORT = 30004
         self.config_filename = 'control_loop_configuration.xml'
 
@@ -29,17 +29,12 @@ class mixedControlObject:
 
         self.con = None
 
-        self.connected = False
-
         self.urxRobot = None
 
         self.traj = []
 
-    def connect(self, ip):
+    def connectRTDE(self):
         try:
-            self.ROBOT_IP = ip
-
-            self.urxRobot = urx.Robot(self.ROBOT_IP)
 
             self.conf = rtde_config.ConfigFile(self.config_filename)
             self.state_names, self.state_types = self.conf.get_recipe('state')
@@ -56,23 +51,29 @@ class mixedControlObject:
             self.con.send_output_setup(self.state_names, self.state_types)
             self.setp = self.con.send_input_setup(self.setp_names, self.setp_types)
             #self.watchdog =self.con.send_input_setup(self.watchdog_names, self.watchdog_types)
-
             self.setp.input_double_register_0 = 0
             self.setp.input_double_register_1 = 0
             self.setp.input_double_register_2 = 0
             self.setp.input_double_register_3 = 0
             self.setp.input_double_register_4 = 0
             self.setp.input_double_register_5 = 0
+            self.setp.input_double_register_6 = 0
 
             #self.watchdog.input_int_register_0 = 0
+            self.con.send_start()
 
-            self.connected = True
-
-            # start data synchronization
-            if not self.con.send_start():
-                sys.exit()
             return True
         except:
+            print("RTDE failed to connect!")
+            return False
+
+    def connectURX(self):
+        try:
+            self.urxRobot = urx.Robot(self.ROBOT_IP)
+            print("URX connected!")
+            return True
+        except:
+            print("URX failed to connect!")
             return False
 
 
@@ -82,32 +83,30 @@ class mixedControlObject:
 
 
     def __add_to_traj(self,new_setp):
-        list = [0,0,0,0,0,0]
+        list = [0,0,0,0,0,0,0]
         list[0] = new_setp[0]
         list[1] = new_setp[1]
         list[2] = new_setp[2]
         list[3] = new_setp[3]
         list[4] = new_setp[4]
         list[5] = new_setp[5]
+        list[6] = len(self.traj)
         self.traj.append(list)
-
-    def __setp_to_list(setp):
-        list = []
-        for i in range(0,6):
-            list.append(setp.__dict__["input_double_register_%i" % i])
-        return list
-
-    def __list_to_setp(setp, listp):
-        for i in range(0,6):
-            setp.__dict__["input_double_register_%i" % i] = listp[i]
-        return setp
 
     def start_RTDE_servo_listener(self):
         file = open("rtde_control_servo.script","r")
         prog = urx.urscript.URScript()
         for line in file:
             prog.add_line_to_program(line)
+        if not self.urxRobot.is_running():
+            self.connectURX()
         self.urxRobot.send_program(prog.__call__())
+        time.sleep(0.1)
+        self.urxRobot.close()
+        if  self.con is None:
+            self.connectRTDE()
+        elif not self.con.is_connected():
+            self.con.send_start()
 
     def __run_traj(self):
         try:
@@ -115,23 +114,21 @@ class mixedControlObject:
             while len(self.traj) > 0:
                 # receive the current state
                 state = self.con.receive()
-                self.traj.pop(0)
 
                 # do something...
                 if state is not None and state.output_int_register_0 != 0:
 
 
                         newSetp = self.traj.pop(0)
-                        urx_setp = self.setp
-
-                        for i in range(0, 6):
+                        #self.setp = self.__list_to_setp(self.setp, newSetp)
+                        for i in range(0, 7):
                             self.setp.__dict__["input_double_register_%i" % i] = newSetp[i]
 
                         # send new setpoint
                         self.con.send(self.setp)
 
                 # kick watchdog
-            #    self.con.send(self.watchdog)
+                #self.con.send(self.watchdog)
 
 
 
@@ -140,13 +137,23 @@ class mixedControlObject:
             return False
     def followTrajectory(self, trajectory):
         self.__add_multiple_to_traj(trajectory)
+        if self.urxRobot is None or not self.urxRobot.is_running():
+            i = 0
+            while not self.connectURX() and i < 5:
+                i = i + 1
+                time.sleep(.1)
+            time.sleep(.1)
         # are we where we are supposed to start? If not move there first
-        if self.traj[0] != self.getj():
-            self.urxRobot.movej(self.traj[0],wait = False)
-            time.sleep(1)
+        ##if self.traj[0] != self.getj():
+            ##self.urxRobot.movej(self.traj[0], acc = 0.3, wait = False)
+          #  threshold = .05
+           # while ((abs(self.getj()[0] - self.traj[0][0]) >= threshold) or (abs(self.getj()[1] - self.traj[0][1]) >= threshold) \
+            #       or (abs(self.getj()[2] - self.traj[0][2]) >= threshold) or (abs(self.getj()[3] - self.traj[0][3]) >= threshold) \
+             #      or (abs(self.getj()[4] - self.traj[0][4]) >= threshold) or (abs(self.getj()[5] - self.traj[0][5]) >= threshold)) :
+              #  time.sleep(.25)
         self.start_RTDE_servo_listener()
-        return self.__run_traj()
-
+        value = self.__run_traj()
+        return value
 
     def disconnect(self):
         self.con.send_pause()
