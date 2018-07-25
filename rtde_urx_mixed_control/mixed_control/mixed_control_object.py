@@ -98,16 +98,17 @@ class mixedControlObject:
         prog = urx.urscript.URScript()
         for line in file:
             prog.add_line_to_program(line)
+
         if not self.urxRobot.is_running():
             self.connectURX()
-        self.urxRobot.send_program(prog.__call__())
+
         time.sleep(0.1)
-        self.urxRobot.close()
         if  self.con is None:
             self.connectRTDE()
         elif not self.con.is_connected():
             self.con.send_start()
-
+        self.urxRobot.send_program(prog.__call__())
+        self.urxRobot.close()
     def __run_traj(self):
         try:
             # control loop
@@ -136,28 +137,33 @@ class mixedControlObject:
         except:
             return False
     def followTrajectory(self, trajectory):
+        # TODO check for invalid input
         self.__add_multiple_to_traj(trajectory)
-        if self.urxRobot is None or not self.urxRobot.is_running():
-            i = 0
-            while not self.connectURX() and i < 5:
-                i = i + 1
+        if self.con is None or not self.con.is_connected():
+            if self.urxRobot is None or not self.urxRobot.is_running():
+                if not self.urxRobot is None:
+                    self.urxRobot.close()
+                i = 0
+                while not self.connectURX() and i < 5:
+                    i = i + 1
+                    time.sleep(.1)
                 time.sleep(.1)
-            time.sleep(.1)
-        # are we where we are supposed to start? If not move there first
-        ##if self.traj[0] != self.getj():
-            ##self.urxRobot.movej(self.traj[0], acc = 0.3, wait = False)
-          #  threshold = .05
-           # while ((abs(self.getj()[0] - self.traj[0][0]) >= threshold) or (abs(self.getj()[1] - self.traj[0][1]) >= threshold) \
-            #       or (abs(self.getj()[2] - self.traj[0][2]) >= threshold) or (abs(self.getj()[3] - self.traj[0][3]) >= threshold) \
-             #      or (abs(self.getj()[4] - self.traj[0][4]) >= threshold) or (abs(self.getj()[5] - self.traj[0][5]) >= threshold)) :
-              #  time.sleep(.25)
-        self.start_RTDE_servo_listener()
+            # are we where we are supposed to start? If not move there first
+            ##if self.traj[0] != self.getj():
+                ##self.urxRobot.movej(self.traj[0], acc = 0.3, wait = False)
+              #  threshold = .05
+               # while ((abs(self.getj()[0] - self.traj[0][0]) >= threshold) or (abs(self.getj()[1] - self.traj[0][1]) >= threshold) \
+                #       or (abs(self.getj()[2] - self.traj[0][2]) >= threshold) or (abs(self.getj()[3] - self.traj[0][3]) >= threshold) \
+                 #      or (abs(self.getj()[4] - self.traj[0][4]) >= threshold) or (abs(self.getj()[5] - self.traj[0][5]) >= threshold)) :
+                  #  time.sleep(.25)
+        if(self.con is None or not self.con.is_connected):
+            self.start_RTDE_servo_listener()
         value = self.__run_traj()
         return value
 
     def disconnect(self):
-        self.con.send_pause()
         self.con.disconnect()
+        self.urxRobot.close()
 
     def getj(self):
         return self.urxRobot.getj(())
@@ -167,3 +173,5 @@ class mixedControlObject:
 
     def get_tool_orietnatiopn(self):
         return self.urxRobot.get_orientation()
+
+    #Todo:

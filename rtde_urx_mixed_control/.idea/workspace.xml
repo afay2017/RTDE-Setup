@@ -13,23 +13,32 @@
     <SUITE FILE_PATH="coverage/rtde_urx_mixed_control$mixed_control_object.coverage" NAME="mixed_control_object Coverage Results" MODIFIED="1532460523913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mixed_control" />
     <SUITE FILE_PATH="coverage/rtde_urx_mixed_control$serialize.coverage" NAME="serialize Coverage Results" MODIFIED="1532441863392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mixed_control/rtde" />
     <SUITE FILE_PATH="coverage/rtde_urx_mixed_control$mixed_control_send_traj.coverage" NAME="mixed_control_send_traj Coverage Results" MODIFIED="1532444267343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mixed_control" />
-    <SUITE FILE_PATH="coverage/rtde_urx_mixed_control$example_control.coverage" NAME="example_control Coverage Results" MODIFIED="1532442288357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mixed_control" />
+    <SUITE FILE_PATH="coverage/rtde_urx_mixed_control$example_control.coverage" NAME="example_control Coverage Results" MODIFIED="1532528337756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mixed_control" />
     <SUITE FILE_PATH="coverage/rtde_urx_mixed_control$example_control_loop.coverage" NAME="example_control_loop Coverage Results" MODIFIED="1532443025819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mixed_control" />
-    <SUITE FILE_PATH="coverage/rtde_urx_mixed_control$mixed_control_object_runner.coverage" NAME="mixed_control_object_runner Coverage Results" MODIFIED="1532463756530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mixed_control" />
+    <SUITE FILE_PATH="coverage/rtde_urx_mixed_control$mixed_control_object_runner.coverage" NAME="mixed_control_object_runner Coverage Results" MODIFIED="1532530590399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mixed_control" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="rtde_urx_mixed_control" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mixed_control_object.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mixed_control_object.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mixed_control/mixed_control_object.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="107" column="14" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+            <state relative-caret-position="455">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="e#2#12#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="example_control.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mixed_control/example_control.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="112" column="16" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -46,17 +55,8 @@
       <file leaf-file-name="rtde_control_servo.script" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mixed_control/rtde_control_servo.script">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="513">
               <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="robot.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/urx/robot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -64,8 +64,8 @@
       <file leaf-file-name="urrobot.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/Python27/Lib/site-packages/urx/urrobot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="299" selection-start-line="299" selection-end-line="299" />
+            <state relative-caret-position="273">
+              <caret line="387" column="12" selection-start-line="387" selection-start-column="12" selection-end-line="387" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -73,7 +73,7 @@
       <file leaf-file-name="ursecmon.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/Python27/Lib/site-packages/urx/ursecmon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5593">
+            <state relative-caret-position="455">
               <caret line="334" selection-start-line="334" selection-end-line="334" />
             </state>
           </provider>
@@ -82,8 +82,8 @@
       <file leaf-file-name="mixed_control_object_runner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mixed_control/mixed_control_object_runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="272">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -94,7 +94,7 @@
       <file leaf-file-name="mixed_control_send_traj.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mixed_control/mixed_control_send_traj.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="200">
               <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="46" />
               <folding>
                 <element signature="e#2#12#0" expanded="true" />
@@ -106,8 +106,8 @@
       <file leaf-file-name="rtde.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mixed_control/rtde/rtde.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1214">
-              <caret line="164" selection-start-line="164" selection-end-line="164" />
+            <state relative-caret-position="163">
+              <caret line="149" selection-start-line="149" selection-end-line="149" />
             </state>
           </provider>
         </entry>
@@ -116,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/mixed_control/control_loop_configuration.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -152,6 +152,8 @@
       <find>dis</find>
       <find>di</find>
       <find>RTDE synchronization</find>
+      <find>close</find>
+      <find>clos</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -159,13 +161,13 @@
       <list>
         <option value="$PROJECT_DIR$/mixed_control/mixed_control_send_traj.py" />
         <option value="C:/Python27/Lib/site-packages/urx/ursecmon.py" />
-        <option value="$PROJECT_DIR$/mixed_control/example_control.py" />
         <option value="$PROJECT_DIR$/mixed_control/example_control_loop.py" />
         <option value="$PROJECT_DIR$/mixed_control/rtde/rtde.py" />
-        <option value="$PROJECT_DIR$/mixed_control/control_loop_configuration.xml" />
         <option value="$PROJECT_DIR$/mixed_control/rtde_control_servo.script" />
-        <option value="$PROJECT_DIR$/mixed_control/mixed_control_object_runner.py" />
+        <option value="$PROJECT_DIR$/mixed_control/control_loop_configuration.xml" />
+        <option value="$PROJECT_DIR$/mixed_control/example_control.py" />
         <option value="$PROJECT_DIR$/mixed_control/mixed_control_object.py" />
+        <option value="$PROJECT_DIR$/mixed_control/mixed_control_object_runner.py" />
       </list>
     </option>
   </component>
@@ -344,10 +346,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.mixed_control_object_runner" />
+        <item itemvalue="Python.example_control" />
         <item itemvalue="Python.mixed_control_object" />
         <item itemvalue="Python.mixed_control_send_traj" />
         <item itemvalue="Python.example_control_loop" />
-        <item itemvalue="Python.example_control" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +377,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32849163" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944136" visible="true" weight="0.15884861" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49944136" visible="true" weight="0.16044776" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -394,24 +396,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14791666" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943678" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +453,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="259" />
+      <option name="time" value="299" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -742,13 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mixed_control/example_control.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -763,45 +758,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/urx/ursecmon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5593">
-          <caret line="334" selection-start-line="334" selection-end-line="334" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/urx/robot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="238">
           <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/urx/urrobot.py">
+    <entry file="file://C:/Python27/Lib/site-packages/urx/ursecmon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="299" selection-start-line="299" selection-end-line="299" />
+        <state relative-caret-position="455">
+          <caret line="334" selection-start-line="334" selection-end-line="334" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mixed_control/control_loop_configuration.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mixed_control/rtde/rtde.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1214">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mixed_control/rtde_control_servo.script">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+          <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -814,7 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mixed_control/mixed_control_send_traj.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="200">
           <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="46" />
           <folding>
             <element signature="e#2#12#0" expanded="true" />
@@ -822,23 +796,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/urx/urrobot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="387" column="12" selection-start-line="387" selection-start-column="12" selection-end-line="387" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mixed_control/rtde/rtde.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mixed_control/mixed_control_object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="e#2#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mixed_control/rtde_control_servo.script">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mixed_control/mixed_control_object_runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="272">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mixed_control/mixed_control_object.py">
+    <entry file="file://$PROJECT_DIR$/mixed_control/example_control.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="107" column="14" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
-          <folding>
-            <element signature="e#2#12#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="268">
+          <caret line="112" column="16" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
         </state>
       </provider>
     </entry>
